@@ -7,8 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "FPGridViewController.h"
+#import "FPNetworkManager.h"
+#import "FPConstants.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic) UINavigationController *navController;
 
 @end
 
@@ -16,8 +21,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.sharedNetworkManager = [[FPNetworkManager alloc] init];
+    self.imageManager = [[FPImageManager alloc] init];
     // Override point for customization after application launch.
+    [[NSUserDefaults standardUserDefaults] setObject:@"ace33f66d758d0661c05c5c93fdcbd5c" forKey:FlickrAPIKeyName];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    FPGridViewController *gridVC = [[FPGridViewController alloc] initWithManagedObjectContext:self.persistentContainer.viewContext];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:gridVC];
+    [self customiseNavigationBar];
+    
+    self.window.rootViewController = self.navController;
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)customiseNavigationBar {
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:51.0f/255.0f
+                                                                  green:51.0f/255.0f
+                                                                   blue:51.0f/255.0f
+                                                                  alpha:1.0]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],
+                                                           NSFontAttributeName:[UIFont
+                                                                                fontWithName:ApplicationFontName
+                                                                                size:14.0f]}];
+    [self.navController.navigationBar setTranslucent:NO];
+
 }
 
 
@@ -47,6 +76,7 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
+    [self.imageManager clearAllCache];
 }
 
 

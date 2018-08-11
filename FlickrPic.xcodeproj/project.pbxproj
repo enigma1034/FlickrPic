@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		F4484099211C87B40084E44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4484098211C87B40084E44E /* main.m */; };
 		F448409C211C87B40084E44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F448409B211C87B40084E44E /* AppDelegate.m */; };
-		F448409F211C87B40084E44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F448409E211C87B40084E44E /* ViewController.m */; };
 		F44840A2211C87B40084E44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44840A0211C87B40084E44E /* Main.storyboard */; };
 		F44840A5211C87B40084E44E /* FlickrPic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F44840A3211C87B40084E44E /* FlickrPic.xcdatamodeld */; };
 		F44840A7211C87B40084E44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44840A6211C87B40084E44E /* Assets.xcassets */; };
 		F44840AA211C87B40084E44E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44840A8211C87B40084E44E /* LaunchScreen.storyboard */; };
 		F44840B5211C87B40084E44E /* FlickrPicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F44840B4211C87B40084E44E /* FlickrPicTests.m */; };
 		F44840C0211C87B40084E44E /* FlickrPicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F44840BF211C87B40084E44E /* FlickrPicUITests.m */; };
+		F44840CF211C886B0084E44E /* FPGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44840CE211C886B0084E44E /* FPGridViewController.m */; };
+		F44840DB211CB31E0084E44E /* NSURLComponents+FPURLComponentsAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F44840DA211CB31E0084E44E /* NSURLComponents+FPURLComponentsAdditions.m */; };
+		F44840DF211CB5750084E44E /* FPNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F44840DE211CB5750084E44E /* FPNetworkManager.m */; };
+		F44840E2211CB5CC0084E44E /* FPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F44840E1211CB5CC0084E44E /* FPConstants.m */; };
+		F4EA2E2E211E114C00C2B888 /* UINavigationBar+FPUIAdditons.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EA2E2D211E114C00C2B888 /* UINavigationBar+FPUIAdditons.m */; };
+		F4EA2E33211E32D400C2B888 /* FPDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EA2E32211E32D400C2B888 /* FPDataParser.m */; };
+		F4EA2E43211E407300C2B888 /* FPJSONConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EA2E42211E407300C2B888 /* FPJSONConstants.m */; };
+		F4EBA34F211ED86B00232FD3 /* FPGridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EBA34E211ED86B00232FD3 /* FPGridCollectionViewCell.m */; };
+		F4EBA353211EDECE00232FD3 /* FPImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EBA352211EDECE00232FD3 /* FPImageManager.m */; };
+		F4EBA359211EE25E00232FD3 /* FPImageCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EBA358211EE25E00232FD3 /* FPImageCacheHelper.m */; };
+		F4EBA35C211F3C2E00232FD3 /* FPGridCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EBA35B211F3C2E00232FD3 /* FPGridCollectionFooterView.m */; };
+		F4EBA35F211F6A7500232FD3 /* FPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EBA35E211F6A7500232FD3 /* FPDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +51,6 @@
 		F4484098211C87B40084E44E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F448409A211C87B40084E44E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F448409B211C87B40084E44E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F448409D211C87B40084E44E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F448409E211C87B40084E44E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F44840A1211C87B40084E44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F44840A4211C87B40084E44E /* FlickrPic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlickrPic.xcdatamodel; sourceTree = "<group>"; };
 		F44840A6211C87B40084E44E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +62,30 @@
 		F44840BB211C87B40084E44E /* FlickrPicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickrPicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44840BF211C87B40084E44E /* FlickrPicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrPicUITests.m; sourceTree = "<group>"; };
 		F44840C1211C87B40084E44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44840CD211C886B0084E44E /* FPGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPGridViewController.h; sourceTree = "<group>"; };
+		F44840CE211C886B0084E44E /* FPGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPGridViewController.m; sourceTree = "<group>"; };
+		F44840D9211CB31E0084E44E /* NSURLComponents+FPURLComponentsAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLComponents+FPURLComponentsAdditions.h"; path = "Helper Classes/NSURLComponents+FPURLComponentsAdditions.h"; sourceTree = "<group>"; };
+		F44840DA211CB31E0084E44E /* NSURLComponents+FPURLComponentsAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURLComponents+FPURLComponentsAdditions.m"; path = "Helper Classes/NSURLComponents+FPURLComponentsAdditions.m"; sourceTree = "<group>"; };
+		F44840DD211CB5750084E44E /* FPNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPNetworkManager.h; path = "Network Classes/FPNetworkManager.h"; sourceTree = "<group>"; };
+		F44840DE211CB5750084E44E /* FPNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPNetworkManager.m; path = "Network Classes/FPNetworkManager.m"; sourceTree = "<group>"; };
+		F44840E0211CB5CC0084E44E /* FPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPConstants.h; path = "Helper Classes/FPConstants.h"; sourceTree = "<group>"; };
+		F44840E1211CB5CC0084E44E /* FPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPConstants.m; path = "Helper Classes/FPConstants.m"; sourceTree = "<group>"; };
+		F4EA2E2C211E114C00C2B888 /* UINavigationBar+FPUIAdditons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+FPUIAdditons.h"; path = "Helper Classes/UINavigationBar+FPUIAdditons.h"; sourceTree = "<group>"; };
+		F4EA2E2D211E114C00C2B888 /* UINavigationBar+FPUIAdditons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+FPUIAdditons.m"; path = "Helper Classes/UINavigationBar+FPUIAdditons.m"; sourceTree = "<group>"; };
+		F4EA2E31211E32D400C2B888 /* FPDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPDataParser.h; path = "Data Classes/FPDataParser.h"; sourceTree = "<group>"; };
+		F4EA2E32211E32D400C2B888 /* FPDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPDataParser.m; path = "Data Classes/FPDataParser.m"; sourceTree = "<group>"; };
+		F4EA2E41211E407300C2B888 /* FPJSONConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPJSONConstants.h; path = "Helper Classes/FPJSONConstants.h"; sourceTree = "<group>"; };
+		F4EA2E42211E407300C2B888 /* FPJSONConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPJSONConstants.m; path = "Helper Classes/FPJSONConstants.m"; sourceTree = "<group>"; };
+		F4EBA34D211ED86B00232FD3 /* FPGridCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPGridCollectionViewCell.h; sourceTree = "<group>"; };
+		F4EBA34E211ED86B00232FD3 /* FPGridCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPGridCollectionViewCell.m; sourceTree = "<group>"; };
+		F4EBA351211EDECE00232FD3 /* FPImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPImageManager.h; path = "Image Manager Classes/FPImageManager.h"; sourceTree = "<group>"; };
+		F4EBA352211EDECE00232FD3 /* FPImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPImageManager.m; path = "Image Manager Classes/FPImageManager.m"; sourceTree = "<group>"; };
+		F4EBA357211EE25E00232FD3 /* FPImageCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPImageCacheHelper.h; path = "Image Manager Classes/FPImageCacheHelper.h"; sourceTree = "<group>"; };
+		F4EBA358211EE25E00232FD3 /* FPImageCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPImageCacheHelper.m; path = "Image Manager Classes/FPImageCacheHelper.m"; sourceTree = "<group>"; };
+		F4EBA35A211F3C2E00232FD3 /* FPGridCollectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPGridCollectionFooterView.h; sourceTree = "<group>"; };
+		F4EBA35B211F3C2E00232FD3 /* FPGridCollectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPGridCollectionFooterView.m; sourceTree = "<group>"; };
+		F4EBA35D211F6A7500232FD3 /* FPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPDetailViewController.h; sourceTree = "<group>"; };
+		F4EBA35E211F6A7500232FD3 /* FPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,16 +136,26 @@
 		F4484096211C87B40084E44E /* FlickrPic */ = {
 			isa = PBXGroup;
 			children = (
+				F4EBA350211EDEA700232FD3 /* Image Manager Classes */,
+				F4EA2E30211E329100C2B888 /* Data Classes */,
+				F44840DC211CB5370084E44E /* Network Classes */,
+				F44840D5211CB14D0084E44E /* Helper Classes */,
 				F448409A211C87B40084E44E /* AppDelegate.h */,
 				F448409B211C87B40084E44E /* AppDelegate.m */,
-				F448409D211C87B40084E44E /* ViewController.h */,
-				F448409E211C87B40084E44E /* ViewController.m */,
 				F44840A0211C87B40084E44E /* Main.storyboard */,
 				F44840A6211C87B40084E44E /* Assets.xcassets */,
 				F44840A8211C87B40084E44E /* LaunchScreen.storyboard */,
 				F44840AB211C87B40084E44E /* Info.plist */,
 				F44840A3211C87B40084E44E /* FlickrPic.xcdatamodeld */,
 				F4484097211C87B40084E44E /* Supporting Files */,
+				F44840CD211C886B0084E44E /* FPGridViewController.h */,
+				F44840CE211C886B0084E44E /* FPGridViewController.m */,
+				F4EBA34D211ED86B00232FD3 /* FPGridCollectionViewCell.h */,
+				F4EBA34E211ED86B00232FD3 /* FPGridCollectionViewCell.m */,
+				F4EBA35A211F3C2E00232FD3 /* FPGridCollectionFooterView.h */,
+				F4EBA35B211F3C2E00232FD3 /* FPGridCollectionFooterView.m */,
+				F4EBA35D211F6A7500232FD3 /* FPDetailViewController.h */,
+				F4EBA35E211F6A7500232FD3 /* FPDetailViewController.m */,
 			);
 			path = FlickrPic;
 			sourceTree = "<group>";
@@ -141,6 +184,50 @@
 				F44840C1211C87B40084E44E /* Info.plist */,
 			);
 			path = FlickrPicUITests;
+			sourceTree = "<group>";
+		};
+		F44840D5211CB14D0084E44E /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F44840E0211CB5CC0084E44E /* FPConstants.h */,
+				F44840E1211CB5CC0084E44E /* FPConstants.m */,
+				F44840D9211CB31E0084E44E /* NSURLComponents+FPURLComponentsAdditions.h */,
+				F44840DA211CB31E0084E44E /* NSURLComponents+FPURLComponentsAdditions.m */,
+				F4EA2E2C211E114C00C2B888 /* UINavigationBar+FPUIAdditons.h */,
+				F4EA2E2D211E114C00C2B888 /* UINavigationBar+FPUIAdditons.m */,
+				F4EA2E41211E407300C2B888 /* FPJSONConstants.h */,
+				F4EA2E42211E407300C2B888 /* FPJSONConstants.m */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		F44840DC211CB5370084E44E /* Network Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F44840DD211CB5750084E44E /* FPNetworkManager.h */,
+				F44840DE211CB5750084E44E /* FPNetworkManager.m */,
+			);
+			name = "Network Classes";
+			sourceTree = "<group>";
+		};
+		F4EA2E30211E329100C2B888 /* Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4EA2E31211E32D400C2B888 /* FPDataParser.h */,
+				F4EA2E32211E32D400C2B888 /* FPDataParser.m */,
+			);
+			name = "Data Classes";
+			sourceTree = "<group>";
+		};
+		F4EBA350211EDEA700232FD3 /* Image Manager Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBA351211EDECE00232FD3 /* FPImageManager.h */,
+				F4EBA352211EDECE00232FD3 /* FPImageManager.m */,
+				F4EBA357211EE25E00232FD3 /* FPImageCacheHelper.h */,
+				F4EBA358211EE25E00232FD3 /* FPImageCacheHelper.m */,
+			);
+			name = "Image Manager Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +363,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F448409F211C87B40084E44E /* ViewController.m in Sources */,
+				F4EBA34F211ED86B00232FD3 /* FPGridCollectionViewCell.m in Sources */,
+				F4EBA35C211F3C2E00232FD3 /* FPGridCollectionFooterView.m in Sources */,
+				F44840DF211CB5750084E44E /* FPNetworkManager.m in Sources */,
+				F4EA2E2E211E114C00C2B888 /* UINavigationBar+FPUIAdditons.m in Sources */,
+				F44840DB211CB31E0084E44E /* NSURLComponents+FPURLComponentsAdditions.m in Sources */,
+				F44840E2211CB5CC0084E44E /* FPConstants.m in Sources */,
+				F44840CF211C886B0084E44E /* FPGridViewController.m in Sources */,
+				F4EA2E43211E407300C2B888 /* FPJSONConstants.m in Sources */,
+				F4EBA359211EE25E00232FD3 /* FPImageCacheHelper.m in Sources */,
+				F4EA2E33211E32D400C2B888 /* FPDataParser.m in Sources */,
+				F4EBA35F211F6A7500232FD3 /* FPDetailViewController.m in Sources */,
 				F44840A5211C87B40084E44E /* FlickrPic.xcdatamodeld in Sources */,
 				F448409C211C87B40084E44E /* AppDelegate.m in Sources */,
+				F4EBA353211EDECE00232FD3 /* FPImageManager.m in Sources */,
 				F4484099211C87B40084E44E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,9 +529,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlickrPic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mac.FlickrPic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -442,9 +542,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlickrPic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mac.FlickrPic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -513,6 +615,7 @@
 				F44840C6211C87B40084E44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F44840C7211C87B40084E44E /* Build configuration list for PBXNativeTarget "FlickrPicTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +624,7 @@
 				F44840C9211C87B40084E44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F44840CA211C87B40084E44E /* Build configuration list for PBXNativeTarget "FlickrPicUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +633,7 @@
 				F44840CC211C87B40084E44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
